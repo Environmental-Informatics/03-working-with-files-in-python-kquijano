@@ -16,7 +16,7 @@ Assignment 03 - Using Files and Simple Data Structures with Python
     Read txt file from a simulated Raccoon behavior model'''
 
 
-file = open('/home/kquijano/ABE65100/Lab03/03-working-with-files-in-python-kquijano/2008Male00006.txt', 'r')
+file = open('2008Male00006.txt', 'r')
 
 flines = file.readlines()                   # Read all lines from file. List of strings
 headers = flines[0].strip().split(',')      # list of headers (only)
