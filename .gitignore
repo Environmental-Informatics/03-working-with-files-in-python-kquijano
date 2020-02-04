@@ -59,6 +59,7 @@ Temporary Items
 Depreciated/
 
 # ignore text data files (reconsider in the future?)
+*.txt
 *.csv
 
 # make sure gitigrnoe file is included in the repository
